@@ -27,7 +27,7 @@ class MobileBankApiTestV6 {
       // Выполняемые действия
       .when()
           .get("/demo/accounts")
-      // Проверки
+      // Проверки.
       .then()
           .statusCode(200);
     }

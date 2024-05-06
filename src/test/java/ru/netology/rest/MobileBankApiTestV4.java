@@ -15,7 +15,7 @@ class MobileBankApiTestV4 {
       // Выполняемые действия
       .when()
           .get("/demo/accounts")
-      // Проверки
+      // Проверки.
       .then()
           .statusCode(200)
           .body(matchesJsonSchemaInClasspath("accounts.schema.json"))

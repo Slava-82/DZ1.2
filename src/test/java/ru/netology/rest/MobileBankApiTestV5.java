@@ -18,7 +18,7 @@ class MobileBankApiTestV5 {
       // Выполняемые действия
       .when()
           .get("/demo/accounts")
-      // Проверки
+      // Проверки.
       .then()
           .statusCode(200)
           .contentType(ContentType.JSON)
