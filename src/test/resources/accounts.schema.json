@@ -29,13 +29,7 @@
         "default": 0
       },
       "currency": {
-        "type": "string",
-        "properties": {
-          "enum": [
-            "RUB",
-            "USD"
-          ]
-        }
+        "type": "string"
       }
     }
   }
